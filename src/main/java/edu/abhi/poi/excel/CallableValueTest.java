@@ -30,6 +30,6 @@ public class CallableValueTest {
     public void setExceptionTest(){
         Exception e = new RuntimeException("This is an error!");
         cv.setException(e);
-        assertEquals(e,cv.getException());
+        assertEquals(e, cv.getException());
     }
 }
